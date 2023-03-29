@@ -1,7 +1,5 @@
 import className from 'classnames';
 
-const finalClassName = className('px-3', 'py-1.5', 'bg-blue-500');
-
 export default function Button({
   children,
   primary,
