@@ -1,28 +1,19 @@
-import Accordion from './components/Accordion';
+import { useState } from 'react';
+import Dropdown from './components/Dropdown';
 
 function App() {
-  const items = [
-    {
-      id: 's126s12',
-      label: 'label 1',
-      content:
-        'content 1 content 1 content 1 content 1 content 1 content 1 content 1 content 1',
-    },
-    {
-      id: '2s2123',
-      label: 'label 2',
-      content:
-        'content 2 content 2 content 2 content 2 content 2 content 2 content 2 content 2',
-    },
-    {
-      id: '12s2134',
-      label: 'label 3',
-      content:
-        'content 3 content 3content 3content 3content 3content 3content 3content 3content 3',
-    },
+  const [selection, setSelection] = useState(null);
+  const options = [
+    { label: 'Red', value: 'red' },
+    { label: 'Green', value: 'green' },
+    { label: 'Blue', value: 'blue' },
   ];
-
-  return <Accordion items={items} />;
+  return (
+    <div className="flex">
+      <Dropdown options={options} value={selection} onChange={setSelection} />
+      {/* <Dropdown options={options} value={selection} onChange={setSelection} /> */}
+    </div>
+  );
 }
 
 export default App;
