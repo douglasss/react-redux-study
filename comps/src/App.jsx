@@ -1,76 +1,28 @@
-import { GoBell, GoCloudDownload, GoDatabase, GoAlert } from 'react-icons/go';
-import Button from './components/Button';
+import Accordion from './components/Accordion';
 
 function App() {
-  return (
-    <div>
-      <div>
-        <Button onClick={() => console.log('teste')}>Plain</Button>
-        <Button outline>Plain</Button>
-        <Button outline rounded>
-          Plain
-        </Button>
-      </div>
-      <div>
-        <Button primary>
-          <GoBell />
-          Primary
-        </Button>
-        <Button primary outline>
-          Primary
-        </Button>
-        <Button primary rounded outline>
-          Primary
-        </Button>
-      </div>
-      <div>
-        <Button secondary>
-          <GoCloudDownload />
-          Secondary
-        </Button>
-        <Button secondary outline>
-          Secondary
-        </Button>
-        <Button secondary outline rounded>
-          Secondary
-        </Button>
-      </div>
-      <div>
-        <Button warning>
-          <GoAlert />
-          Warning
-        </Button>
-        <Button warning outline>
-          Warning
-        </Button>
-        <Button warning outline rounded>
-          Warning
-        </Button>
-      </div>
-      <div>
-        <Button danger>
-          <GoDatabase />
-          Danger
-        </Button>
-        <Button danger outline>
-          Danger
-        </Button>
-        <Button danger outline rounded>
-          <GoDatabase />
-          Danger
-        </Button>
-      </div>
-      <div>
-        <Button success>Success</Button>
-        <Button success outline>
-          Success
-        </Button>
-        <Button success rounded outline>
-          Success
-        </Button>
-      </div>
-    </div>
-  );
+  const items = [
+    {
+      id: 's126s12',
+      label: 'label 1',
+      content:
+        'content 1 content 1 content 1 content 1 content 1 content 1 content 1 content 1',
+    },
+    {
+      id: '2s2123',
+      label: 'label 2',
+      content:
+        'content 2 content 2 content 2 content 2 content 2 content 2 content 2 content 2',
+    },
+    {
+      id: '12s2134',
+      label: 'label 3',
+      content:
+        'content 3 content 3content 3content 3content 3content 3content 3content 3content 3',
+    },
+  ];
+
+  return <Accordion items={items} />;
 }
 
 export default App;
