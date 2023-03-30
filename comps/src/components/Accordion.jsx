@@ -16,7 +16,11 @@ export default function Accordion({ items }) {
       <div key={item.id}>
         <div
           className="flex justify-between p-3 bg-gray-50 border-b items-center cursor-pointer"
-          onClick={() => setExpandedIndex(index === expandedIndex ? -1 : index)}
+          onClick={() =>
+            setExpandedIndex((currentExpandedIndex) =>
+              index === currentExpandedIndex ? -1 : index
+            )
+          }
         >
           {item.label}
           {icon}
