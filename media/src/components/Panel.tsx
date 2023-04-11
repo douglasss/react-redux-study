@@ -1,13 +1,13 @@
-import classNames from "classnames";
+import classNames from 'classnames';
 
 interface Props {
-  children: string;
+  children: React.ReactNode;
   className?: string;
 }
 
 function Panel({ children, className, ...rest }: Props) {
   const finalClassNames = classNames(
-    "border rounded p-3 shadow bg-white w-full",
+    'border rounded p-3 shadow bg-white w-full',
     className
   );
 

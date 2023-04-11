@@ -1,5 +1,26 @@
 {
-  "users": [],
+  "users": [
+    {
+      "name": "Rebecca Medhurst",
+      "id": 1
+    },
+    {
+      "name": "Mrs. Monica Watsica",
+      "id": 6
+    },
+    {
+      "name": "Brett Lind",
+      "id": 7
+    },
+    {
+      "name": "Homer Koss IV",
+      "id": 8
+    },
+    {
+      "name": "Alexis Kuhn",
+      "id": 9
+    }
+  ],
   "albums": [],
   "photos": []
 }
