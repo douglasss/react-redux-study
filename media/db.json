@@ -1,24 +1,28 @@
 {
   "users": [
     {
-      "name": "Rebecca Medhurst",
-      "id": 1
-    },
-    {
-      "name": "Mrs. Monica Watsica",
-      "id": 6
-    },
-    {
-      "name": "Brett Lind",
-      "id": 7
-    },
-    {
       "name": "Homer Koss IV",
       "id": 8
     },
     {
       "name": "Alexis Kuhn",
       "id": 9
+    },
+    {
+      "name": "Allan Beer",
+      "id": 10
+    },
+    {
+      "name": "Evan Goodwin",
+      "id": 11
+    },
+    {
+      "name": "Dr. Madeline Howe",
+      "id": 12
+    },
+    {
+      "name": "Kimberly Bergstrom",
+      "id": 13
     }
   ],
   "albums": [],
