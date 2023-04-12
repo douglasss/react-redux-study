@@ -3,6 +3,7 @@ import { Album } from '../types/album';
 import Button from './Button';
 import ExpandablePanel from './ExpandablePanel';
 import { GoTrashcan } from 'react-icons/go';
+import PhotosList from './PhotosList';
 
 interface Props {
   album: Album;
@@ -30,7 +31,7 @@ export default function AlbumsListItem({ album }: Props) {
 
   return (
     <ExpandablePanel key={album.id} header={header}>
-      List of photos in the album
+      <PhotosList album={album} />
     </ExpandablePanel>
   );
 }

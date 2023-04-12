@@ -11,6 +11,10 @@
     {
       "name": "Heather Trantow",
       "id": 13
+    },
+    {
+      "name": "Kelli Gottlieb",
+      "id": 14
     }
   ],
   "albums": [
@@ -28,7 +32,113 @@
       "userId": 13,
       "title": "Licensed Cotton Pants",
       "id": 28
+    },
+    {
+      "userId": 10,
+      "title": "Ergonomic Plastic Chicken",
+      "id": 29
+    },
+    {
+      "userId": 12,
+      "title": "Refined Metal Tuna",
+      "id": 30
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=77007",
+      "albumId": 26,
+      "id": 4
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=65241",
+      "albumId": 26,
+      "id": 5
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=31517",
+      "albumId": 26,
+      "id": 6
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=99652",
+      "albumId": 26,
+      "id": 7
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=70265",
+      "albumId": 26,
+      "id": 8
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=65156",
+      "albumId": 26,
+      "id": 9
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=2043",
+      "albumId": 26,
+      "id": 10
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=4423",
+      "albumId": 29,
+      "id": 11
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=88411",
+      "albumId": 29,
+      "id": 12
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=17148",
+      "albumId": 29,
+      "id": 14
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=34287",
+      "albumId": 20,
+      "id": 15
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=31594",
+      "albumId": 20,
+      "id": 16
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=29026",
+      "albumId": 20,
+      "id": 17
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=50682",
+      "albumId": 20,
+      "id": 18
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=94781",
+      "albumId": 28,
+      "id": 19
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=62961",
+      "albumId": 28,
+      "id": 20
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=62264",
+      "albumId": 28,
+      "id": 21
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=56433",
+      "albumId": 28,
+      "id": 22
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=9843",
+      "albumId": 28,
+      "id": 23
+    }
+  ]
 }
