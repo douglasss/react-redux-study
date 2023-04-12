@@ -1,125 +1,33 @@
 {
   "users": [
     {
-      "name": "Homer Koss IV",
-      "id": 8
-    },
-    {
-      "name": "Alexis Kuhn",
-      "id": 9
-    },
-    {
       "name": "Allan Beer",
       "id": 10
-    },
-    {
-      "name": "Evan Goodwin",
-      "id": 11
     },
     {
       "name": "Dr. Madeline Howe",
       "id": 12
     },
     {
-      "name": "Kimberly Bergstrom",
+      "name": "Heather Trantow",
       "id": 13
     }
   ],
   "albums": [
     {
-      "id": 1,
-      "title": "Some Album",
-      "userId": 8
-    },
-    {
-      "userId": 8,
-      "title": "Awesome Granite Salad",
-      "id": 2
-    },
-    {
-      "userId": 8,
-      "title": "Intelligent Steel Hat",
-      "id": 3
-    },
-    {
-      "userId": 8,
-      "title": "Generic Rubber Cheese",
-      "id": 4
-    },
-    {
-      "userId": 8,
-      "title": "Modern Plastic Soap",
-      "id": 5
-    },
-    {
-      "userId": 8,
-      "title": "Small Plastic Pants",
-      "id": 6
-    },
-    {
-      "userId": 8,
-      "title": "Generic Fresh Shoes",
-      "id": 7
-    },
-    {
-      "userId": 9,
-      "title": "Refined Metal Shirt",
-      "id": 8
-    },
-    {
-      "userId": 9,
-      "title": "Licensed Rubber Computer",
-      "id": 9
-    },
-    {
-      "userId": 9,
-      "title": "Awesome Soft Bike",
-      "id": 10
-    },
-    {
-      "userId": 9,
-      "title": "Electronic Rubber Chicken",
-      "id": 11
-    },
-    {
-      "userId": 9,
-      "title": "Rustic Wooden Shirt",
-      "id": 12
-    },
-    {
-      "userId": 9,
-      "title": "Ergonomic Cotton Mouse",
-      "id": 13
-    },
-    {
-      "userId": 8,
-      "title": "Recycled Frozen Table",
-      "id": 14
-    },
-    {
-      "userId": 8,
-      "title": "Handcrafted Frozen Soap",
-      "id": 15
-    },
-    {
       "userId": 12,
-      "title": "Luxurious Concrete Chair",
-      "id": 16
+      "title": "Gorgeous Wooden Hat",
+      "id": 20
     },
     {
-      "userId": 12,
-      "title": "Incredible Wooden Car",
-      "id": 17
+      "userId": 10,
+      "title": "Gorgeous Wooden Chicken",
+      "id": 26
     },
     {
       "userId": 13,
-      "title": "Electronic Rubber Car",
-      "id": 18
-    },
-    {
-      "userId": 13,
-      "title": "Elegant Soft Chicken",
-      "id": 19
+      "title": "Licensed Cotton Pants",
+      "id": 28
     }
   ],
   "photos": []
